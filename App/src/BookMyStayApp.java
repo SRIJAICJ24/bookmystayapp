@@ -51,8 +51,17 @@ class SuiteRoom extends Room {
 
 // Version: 3.0
 class RoomInventory {
+    /**
+     * Stores available room count for each room type.
+     * Key   -> Room type name
+     * Value -> Available room count
+     */
     private Map<String, Integer> roomAvailability;
 
+    /**
+     * Constructor initializes the inventory
+     * with default availability values.
+     */
     public RoomInventory() {
         roomAvailability = new HashMap<>();
         initializeInventory();
