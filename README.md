@@ -1,2 +1,1 @@
-# bookmystayapp
-step 2
+# BookMyStayApp
